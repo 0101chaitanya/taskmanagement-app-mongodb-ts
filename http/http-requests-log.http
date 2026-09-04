@@ -1,0 +1,264 @@
+POST http://localhost:3000/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email"   : "0101chaitanya@gmail.com",
+  "password": "Pass@789"
+}
+
+<> 2026-09-02T160407.200.json
+
+###
+POST http://localhost:3000/api/v1/auth/reset-password/19014d93164942fec9bf1444db362338cb0ea7db
+Content-Type: application/json
+
+{
+  "newPassword": "Pass@789"
+}
+
+<> 2026-09-02T160351.200.json
+
+###
+POST http://localhost:3000/api/v1/auth/forgot-password
+Content-Type: application/json
+
+{
+  "email": "0101chaitanya@gmail.com"
+}
+
+<> 2026-09-02T160323.200.json
+
+###
+POST http://localhost:3000/api/v1/auth/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTk3ZjllNzk2OWZiODhiZjljYjhiODgiLCJlbWFpbCI6IjAxMDFjaGFpdGFueWFAZ21haWwuY29tIiwidXNlcm5hbWUiOiIwMTAxY2hhaXRhbnlhIiwiaWF0IjoxNzg4MzQ1MDAwLCJleHAiOjE3ODg0MzE0MDB9.HT0lDv97WwGF9p4o2n7pSBNWuf_cbF6PQ_KJnAIDqxI
+
+<> 2026-09-02T160312.200.json
+
+###
+POST http://localhost:3000/api/v1/auth/change-password
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTk3ZjllNzk2OWZiODhiZjljYjhiODgiLCJlbWFpbCI6IjAxMDFjaGFpdGFueWFAZ21haWwuY29tIiwidXNlcm5hbWUiOiIwMTAxY2hhaXRhbnlhIiwiaWF0IjoxNzg4MzQ1MDAwLCJleHAiOjE3ODg0MzE0MDB9.HT0lDv97WwGF9p4o2n7pSBNWuf_cbF6PQ_KJnAIDqxI}
+Content-Type: application/json
+
+{
+  "oldPassword": "Pass@123",
+  "newPassword": "Pass@456"
+}
+
+<> 2026-09-02T160306.200.json
+
+###
+POST http://localhost:3000/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email"   : "0101chaitanya@gmail.com",
+  "password": "Pass@123"
+}
+
+<> 2026-09-02T160232.200.json
+
+###
+POST http://localhost:3000/api/v1/auth/resend-email-verification
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTk3ZjllNzk2OWZiODhiZjljYjhiODgiLCJlbWFpbCI6IjAxMDFjaGFpdGFueWFAZ21haWwuY29tIiwidXNlcm5hbWUiOiIwMTAxY2hhaXRhbnlhIiwiaWF0IjoxNzg4MzQ1MDAwLCJleHAiOjE3ODg0MzE0MDB9.HT0lDv97WwGF9p4o2n7pSBNWuf_cbF6PQ_KJnAIDqxI
+
+<> 2026-09-02T160130.200.json
+
+###
+POST http://localhost:3000/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email"   : "0101chaitanya@gmail.com",
+  "password": "Pass@123"
+}
+
+<> 2026-09-02T160000.200.json
+
+###
+POST http://localhost:3000/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "email"   : "0101chaitanya@gmail.com",
+  "username": "0101chaitanya",
+  "password": "Pass@123"
+}
+
+<> 2026-09-02T155650.201.json
+
+###
+GET http://localhost:3000/api/v1/healthcheck
+
+<> 2026-09-02T155644.200.json
+
+###
+POST http://localhost:3000/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "email"   : "0101chaitanya@gmail.com",
+  "username": "0101chaitanya",
+  "password": "Pass@123"
+}
+
+<> 2026-09-02T155019.201.json
+
+###
+GET http://localhost:3000/api/v1/healthcheck
+
+<> 2026-09-02T155011.200.json
+
+###
+POST http://localhost:3000/api/v1/auth/forgot-password
+Content-Type: application/json
+
+{
+  "email": "0101chaitanya@gmail.com"
+}
+
+<> 2026-09-02T153926.200.json
+
+###
+POST http://localhost:3000/api/v1/auth/logout
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTk3ZTU2OWVkOGNkNTkyMGQ4NzU3YjQiLCJlbWFpbCI6IjAxMDFjaGFpdGFueWFAZ21haWwuY29tIiwidXNlcm5hbWUiOiIwMTAxY2hhaXRhbnlhIiwiaWF0IjoxNzg4MzM5NTc4LCJleHAiOjE3ODg0MjU5Nzh9.PR-lBZ2z-1Io0kXLu6ES_k7GiGGrOtfSGSh-IDOfMKA
+
+<> 2026-09-02T153849.200.json
+
+###
+POST http://localhost:3000/api/v1/auth/change-password
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTk3ZTU2OWVkOGNkNTkyMGQ4NzU3YjQiLCJlbWFpbCI6IjAxMDFjaGFpdGFueWFAZ21haWwuY29tIiwidXNlcm5hbWUiOiIwMTAxY2hhaXRhbnlhIiwiaWF0IjoxNzg4MzM5ODU1LCJleHAiOjE3ODg0MjYyNTV9.HbABuKL2x2jU0rTeDnD-TH9LLci6ann0iQVmkmvJi8w
+Content-Type: application/json
+
+{
+  "oldPassword": "Pass@123",
+  "newPassword": "Pass@456"
+}
+
+<> 2026-09-02T153837.200.json
+
+###
+POST http://localhost:3000/api/v1/auth/current-user
+Authorization: Bearer variable value
+
+<> 2026-09-02T153820.200.json
+
+###
+POST http://localhost:3000/api/v1/auth/current-user
+Authorization: Bearer variable value
+
+<> 2026-09-02T153649.401.html
+
+###
+POST http://localhost:3000/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email"   : "0101chaitanya@gmail.com",
+  "password": "Pass@123"
+}
+
+<> 2026-09-02T153508.200.json
+
+###
+@base_url_todo_app = http://localhost:3000
+@bearer =eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTk3ZjllNzk2OWZiODhiZjljYjhiODgiLCJlbWFpbCI6IjAxMDFjaGFpdGFueWFAZ21haWwuY29tIiwidXNlcm5hbWUiOiIwMTAxY2hhaXRhbnlhIiwiaWF0IjoxNzg4MzQ1MDAwLCJleHAiOjE3ODg0MzE0MDB9.HT0lDv97WwGF9p4o2n7pSBNWuf_cbF6PQ_KJnAIDqxI
+
+
+###
+# @name healthcheck
+GET {{base_url_todo_app}}/api/v1/healthcheck
+
+###
+# @name register
+POST {{base_url_todo_app}}/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "email"   : "0101chaitanya@gmail.com",
+  "username": "0101chaitanya",
+  "password": "Pass@123"
+}
+
+###
+# @name resend-email-verification
+POST {{base_url_todo_app}}/api/v1/auth/resend-email-verification
+Authorization: Bearer {{bearer}}
+
+###
+# @name verify-email
+@verificationToken =
+GET {{base_url_todo_app}}/api/v1/auth/verify-email/{{verificationToken}}
+Content-Type: application/json
+
+{
+  "email"   : "",
+  "username": "",
+  "password": ""
+}
+
+
+###
+# @name login
+POST {{base_url_todo_app}}/api/v1/auth/login
+Content-Type: application/json
+
+{
+  "email"   : "0101chaitanya@gmail.com",
+  "password": "Pass@789"
+}
+
+
+###
+# @name  refresh-access-token
+POST {{base_url_todo_app}}/api/v1/auth/refresh-access-token
+Content-Type: application/json
+# need to give current refresh token to fetch new refresh,access tokens after expiry of
+# old/current access token
+{
+  "refreshToken": ""
+}
+
+###
+# @name forgot-password
+POST {{base_url_todo_app}}/api/v1/auth/forgot-password
+Content-Type: application/json
+
+{
+  "email": "0101chaitanya@gmail.com"
+}
+
+###
+# @name reset-password
+@resetToken = 19014d93164942fec9bf1444db362338cb0ea7db
+POST {{base_url_todo_app}}/api/v1/auth/reset-password/{{resetToken}}
+Content-Type: application/json
+
+{
+  "newPassword": "Pass@789"
+}
+
+###
+# @name current-user
+POST {{base_url_todo_app}}/api/v1/auth/current-user
+Authorization: Bearer {{bearer}}
+#Cookie: accessToken=accessToken; refreshToken=refreshToken;
+
+###
+# @name change-password
+POST {{base_url_todo_app}}/api/v1/auth/change-password
+Authorization: Bearer {{bearer}}}
+Content-Type: application/json
+
+{
+  "oldPassword": "Pass@123",
+  "newPassword": "Pass@456"
+}
+
+
+###
+# @name logout
+POST {{base_url_todo_app}}/api/v1/auth/logout
+Authorization: Bearer {{bearer}}
+
+###
+
