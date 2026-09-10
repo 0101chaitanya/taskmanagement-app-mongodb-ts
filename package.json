@@ -47,6 +47,6 @@
     "mailgen": "^2.0.36",
     "mailtrap": "^4.10.0",
     "mongoose": "^9.9.4",
-    "nodemailer": "^9.1.0"
+    "nodemailer": "^9.1.1"
   }
 }
