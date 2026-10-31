@@ -45,8 +45,8 @@
     "express-validator": "^7.3.2",
     "jsonwebtoken": "^9.0.3",
     "mailgen": "^2.0.36",
-    "mailtrap": "^4.10.0",
+    "mailtrap": "^6.0.0",
     "mongoose": "^9.9.4",
-    "nodemailer": "^9.1.0"
+    "nodemailer": "^10.3.1"
   }
 }
